@@ -1,0 +1,8 @@
+1. navbar
+2. image
+3. trip part [X] without background image
+4.refer part
+5. about us part
+text content part
+image 
+copy right 
