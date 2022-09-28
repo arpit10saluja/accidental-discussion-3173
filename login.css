@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#continer{
+    width: 30%;
+    margin: auto;
+    margin-top: -40px;
+}
+#continer>img{
+    width: 100%;
+}
+#continer>h1{
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+#continer p{
+    color: green;
+    margin-left: 15px;
+    font-weight: bold;
+}
+#social{
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid rgb(165, 165, 165);
+}
+#card{
+    
+    display: flex;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    padding-bottom: 20px;
+    margin: 40px 0px 30px 0px;
+}
+#card>span{
+    margin-left: 15px;
+    font-size: 18px;
+}
+#card>input{
+    border: 0px;
+    border-left: 1px solid rgb(165, 165, 165);
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
