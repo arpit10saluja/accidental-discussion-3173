@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navimage{
+    margin-top: -120px;
+    background-image: url("https://www.zoomcar.com/assets/component-images/ZMS-Hero-Banner.584135fee08ac6c84fee329d5fb915f4.jpg");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 140px;
+    height: 550px;
+    border-bottom: 15px solid green;
+    display: grid;
+}
+#navimage>div{
+    width: 100%;
+    
+    display: flex;
+    padding-top: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#navimage>div>img {
+    margin-top: 125px;
+    width: 10%;
+}
+#navimage>div>button{
+    margin-top: 125px;
+    padding: 10px 15px;
+}
+
+#navimage>h1{
+    color: white;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 130px;
+    font-size: 40px;
+}
+
+#navimage>p{
+    width: 40%;
+    margin: auto;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+}
+#navimage>:last-child>button{
+    background-color: green;
+    padding: 15px 0px;
+    border: 0px;
+    width: 18%;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+}
+
