@@ -37,12 +37,19 @@ div+div>div>a{
 
 #container{
     width: auto;
-    height: 500px;
+    height: 550px;
     background-color: rgb(176, 176, 176);
     display: grid;
     justify-content: center;
     align-items: center;
     background-image: url("https://zoomcar-assets.zoomcar.com/images/original/a121667db0d5e435e48884b015120bc180a4ad2f.jpg?1661426287");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+}
+
+#container>:first-child>button{
+    font-size: 30px;
+    margin-top: 200px;
 }
 #container2{
     width: 80%;
