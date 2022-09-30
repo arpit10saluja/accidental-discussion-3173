@@ -65,10 +65,12 @@ body {
     font-size: 35px;
 }
 #box1{
-    width: 80%;
+    width: 75%;
     background-color: rgb(245,245,245);
     margin: auto;
-    height: 800px;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
 }
 #box1>p{
     width: 58%;
@@ -79,10 +81,105 @@ body {
     margin-top: 70px;
 }
 #slider{
-    width: 300%;
+    margin-top: 50px;
     animation: 9s slider infinite;
-    display: flex;
 
 }
+#slider~h1{
+    font-size: 24px;
+    color: rgb(104,105,108);
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+#card{
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
 
+#card div{
+    padding-right: 5px;
+}
+#card div h3{
+    font-size: 18px;
+    color: rgb(31 31 31);
+}
+#card div p{
+    color: rgb(104,105,108);
+    font-size: 18px;
+}
+#card~a>button{
+   padding: 10px 60px; 
+   border-radius: 4px;
+   background-color: rgb(16,163,16);
+   border: 0px;
+   color: white;
+   font-size: 14px;
+}
 
+#box2{
+    margin-top: 70px;
+    background-color: rgb(11,132,8);
+    height: 400px;
+    padding-top: 40px;
+}
+#box2>h1{
+    color: white;
+    text-align: center;
+}
+
+#box2>div{
+    background-color: rgb(245,245,245);
+    width: 75%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    display: grid;
+    padding: 50px 70px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px 20px;
+}
+#mini h3{
+    font-size: 18px;
+}
+
+#mini img{
+    width: 10%;
+}
+#mini p{
+    color: rgb(104,105,108);
+    font-size: 17px;
+}
+
+#box2~div{
+    width: 75%;
+    margin: auto;
+    margin-top: 450px;
+}
+#box2~div>img{
+    width: 100%;
+}
+#box2~div>h1{
+    text-align: center;
+    margin: 40px;
+}
+#box2~div>p{
+    width: 40%;
+    margin: auto;
+    margin-top: -25px;
+    color: rgb(104,105,108);
+}
+
+#box3{
+    width: 30%;
+    height: 500px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(3,300px);
+}
+#box3 div{
+    border: 1px solid black;
+    margin-top: -200px;
+}
