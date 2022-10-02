@@ -156,6 +156,7 @@ body {
     width: 75%;
     margin: auto;
     margin-top: 450px;
+    margin-bottom: -300px;
 }
 #box2~div>img{
     width: 100%;
@@ -165,21 +166,75 @@ body {
     margin: 40px;
 }
 #box2~div>p{
-    width: 40%;
+    width: 45%;
     margin: auto;
     margin-top: -25px;
     color: rgb(104,105,108);
+    font-size: 18px;
 }
 
-#box3{
-    width: 30%;
-    height: 500px;
+#card2{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    height: auto;
     display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 30px;
-    grid-template-columns: repeat(2,300px);
-    grid-template-rows: repeat(3,300px);
 }
-#box3 div{
-    border: 1px solid black;
-    margin-top: -200px;
+#card2>div{
+    background-color: rgb(27,27,27);
+    padding: 20px 20px 10px 20px;
+    border-radius: 5px;
 }
+
+#card2>div>img{
+    width: 50px;
+}
+#card2>div>h3{
+    font-size: 22px;
+    color: white;
+    margin-top: 70px;
+}
+
+#connect>p{
+    text-align: center;
+}
+
+#connect>form{
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+}
+#connect>form>input{
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 5px;
+}
+#Email{
+    width: 92%;
+}
+#decription{
+    width: 92%;
+}
+
+#connect>form>#decription{
+    height: 100px;
+}
+
+#submit{
+    width: 35%;
+    margin: auto;
+}
+
+#submit>input{
+    width: 100%;
+    padding: 10px 10px;
+    color: white;
+   background-color: green; 
+   margin: auto;
+   border: 0px;
+}
+

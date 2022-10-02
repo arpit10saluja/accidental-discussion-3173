@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <style>
+        .container{
+            width: 45%;
+            margin: auto;
+            height: 300px;
+            padding: 20px;
+        }
+        .container>h2{
+            font-size: 20px;
+        }
+        .container>p{
+            font-size: 14px;
+            margin-top: -8px;
+            margin-bottom: 30px;
+        }
+        .container>div{
+            display: flex;
+            gap: 20px;
+        }
+        div>h3{
+            border: 2px solid green;
+            padding: 15px 20px 15px 20px;
+        }
+        div>input{
+            padding: 5px 15px;
+            width: 80%;    
+            height: 44px;
+            margin-top: 17px;
+            border: 2px solid green;
+        }
+
+        .container>input{
+            width: 94%;
+            margin-top: 30px;
+        }
+
+        .container~div{
+            margin: auto;
+            width: 40%;
+            margin-top: 150px;
+        }
+        .container~div>button{
+            width: 100%;
+            padding: 10px 0px;
+            border-radius: 5px;
+            background-color: rgb(224,224,224);
+            color: white;
+            font-size: 20px;
+            border: 0px;
+        }
+
+        .container~div>button:hover{
+            background-color: green;
+        }
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <h2>Please Fill Some Details</h2>
+        <p>One last step to create a new account</p>
+        <div>
+            <h3>+91 </h3>
+            <input type="number" name="" id="number" placeholder="Enter Mobile Number">
+        </div>
+        <input type="email" id="email" placeholder="Email Id">
+    </div>
+    <div>
+        <button onclick="data()">Continue</button>
+    </div>
+    
+</body>
+</html>
+
+
+<script>
+    let obj={}
+
+    function data(){
+        let name= document.getElementById("number").value
+        let email= document.getElementById("email").value
+
+        obj={name,email}       
+        localStorage.setItem("data",JSON.stringify(obj))
+        alert("Thank You for Sign-Up")
+        
+        let baseUrl=window.location.href.split(".netlify.app/")[0]
+        window.location=(baseUrl+".netlify.app/index.html")
+    }
+
+    
+
+    
+</script>
