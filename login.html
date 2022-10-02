@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in | Sign Up</title>
     <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
 </head>
 <body>
 
@@ -14,7 +15,7 @@
         <h1>Enter details to login/sign-up</h1>
         <div id="card">
             <span>+91</span>
-            <input type="number" placeholder="Enter Mobile Number">
+            <input type="number" placeholder="Enter Mobile Number" id="number">
         </div>
         <div>
             <p>Continue with Email ID</p>
@@ -24,6 +25,10 @@
             <img src="https://www.zoomcar.com/build/62ba375ec1a9fbcbee9e9099181c8d38.svg" alt="">
             <img src="https://www.zoomcar.com/build/279de03b0c8ecdb4db56a79da6e775e6.svg" alt="">
         </div>
+        <div class="btn">
+            <button onclick="checkdata()">Continue</button>
+        </div>
+        
     </div>
    
     

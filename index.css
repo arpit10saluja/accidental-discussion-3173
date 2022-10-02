@@ -35,7 +35,7 @@ div+div>div>a{
     margin-left: 20px;
 }
 
-#container{
+.container0{
     width: auto;
     height: 550px;
     background-color: rgb(176, 176, 176);
@@ -46,10 +46,32 @@ div+div>div>a{
     background-size: 1300px;
     background-repeat: no-repeat;
 }
+.container1{
+    width: auto;
+    height: 550px;
+    background-color: rgb(176, 176, 176);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.zoomcar.com/img/banner_airport.png");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+}
 
-#container>:first-child>button{
+.container0>:first-child>button{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 200px;
+}
+.container1>:first-child>button{
     font-size: 30px;
     margin-top: 200px;
+}
+#location{
+    width: 20%;
+}
+#location>select{
+    width: 100%;
 }
 #container2{
     width: 80%;

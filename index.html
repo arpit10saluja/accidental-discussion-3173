@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self Drive Car Rentals in Delhi| Rent a Car| Car Hire at Zoomcar</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
 </head>
-<link rel="stylesheet" href="index.css">
 
 <body>
     <div id="navbar">
@@ -14,26 +16,29 @@
             <a href="index.html">
                 <img src="https://image.pitchbook.com/qfBpRJZPpK2PcF0uxRvGWSFdtaP1646411626864_200x200" alt="">
             </a>
-            
         </div>
        <div>
         <div>
             <a href=""> Become a Host</a>
         </div>
-        
         <a href="ZMS.html"> ZMS</a>
         <a href="login.html"> Login/Singup</a>
        </div>
     </div>
 
-    <div id="container">
+    <div id="container0" class="container0" >
         <div>
-            
-            <button>Round Trip</button>
-            <button>Airport Round Trip</button>
+            <button onclick="changeBackground('round')">Round Trip</button>
+            <button onclick="changeBackground('oneway')">Airport Round Trip</button>
         </div>
-       <div>
+       <div id="location">
         <!-- create a tag and image tag inside anchor tag and give another page link in a tag that set data in localstroge and given in input tag -->
+        <select name="">
+            <option value="Delhi">Delhi-NCR</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="up">Uttarpradesh</option>
+            <option value="uk">Uttarakhand</option>
+        </select>
        </div>
        <button>Find Cars</button>
     </div>
@@ -102,7 +107,6 @@
 <div id="copy">
     <p>© Copyright 2022 Zoomcar India Private Ltd. All rights reserved</p>
 </div>
-
 
 
 

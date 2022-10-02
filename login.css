@@ -36,11 +36,27 @@ body{
 #card>span{
     margin-left: 15px;
     font-size: 18px;
+    margin-top: 10px;
 }
 #card>input{
     border: 0px;
     border-left: 1px solid rgb(165, 165, 165);
     margin-left: 20px;
+    padding: 10px 10px;
     padding-left: 10px;
     font-size: 18px;
+    
+}
+.btn{
+    width: 60%;
+    margin: auto;
+}
+
+.btn>button{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 15px;
+    background-color: rgb(0, 91, 0);
+    color: white;
+    border: 0px;
 }
