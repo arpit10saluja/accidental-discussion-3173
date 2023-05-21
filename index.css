@@ -36,14 +36,14 @@ div+div>div>a{
 }
 
 .container0{
-    width: auto;
+    width: 100%;
     height: 550px;
     background-color: rgb(176, 176, 176);
     display: grid;
     justify-content: center;
     align-items: center;
     background-image: url("https://zoomcar-assets.zoomcar.com/images/original/a121667db0d5e435e48884b015120bc180a4ad2f.jpg?1661426287");
-    background-size: 1300px;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .container1{
@@ -54,24 +54,27 @@ div+div>div>a{
     justify-content: center;
     align-items: center;
     background-image: url("https://www.zoomcar.com/img/banner_airport.png");
-    background-size: 1300px;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .container0>:first-child>button{
     font-size: 20px;
     padding: 10px 30px;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 .container1>:first-child>button{
-    font-size: 30px;
-    margin-top: 200px;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 300px;
 }
 #location{
     width: 20%;
 }
 #location>select{
-    width: 100%;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
 }
 #container2{
     width: 80%;
